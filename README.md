@@ -1,4 +1,4 @@
-# frontend-batch-# Repository Information
+# Repository Information
 Assignment Questions of frontend course offered by REGex <br>
 
 # Programming Language Used
