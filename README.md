@@ -2,9 +2,9 @@
 Assignment Questions of frontend course offered by REGex <br>
 
 # Programming Language Used
-<img src="https://icons8.com/icon/20909/html-5" alt="html">
-<img src="https://icons8.com/icon/21278/css3" alt="css">
-<img src="https://icons8.com/icon/108784/javascript" alt="javascript">
+<img src="https://img.icons8.com/color/70/000000/html-5--v1.png" alt="HTML" />
+  <img src="https://img.icons8.com/color/70/000000/css3.png" alt="CSS" />
+  <img src="https://img.icons8.com/?size=70&id=PXTY4q2Sq2lG&format=png&color=000000" alt="js" />
 
 
 # Repository Owner
