@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <!-- Link to connect CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Links to connect Awesomefont -->
+    <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.card-upper {
+    background-color: #3b7ed0;
+    /* border-radius: 15px 15px 0 0; */
+    padding: 15px;
+    margin: -20px -20px 20px -20px;
+    
+}
+
+.card-upper img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 80px;
+}
+
+.card-lower h2 {
+    font-size: 22px;
+    margin: 10px 0 5px 0;
+}
+
+.card-lower p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.card-lower .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card-lower .icons a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#linkedin {
+    color: #3b7ed0;
+}
+
+#github {
+    color: #000000;
+}
+
+#envelope {
+    color: #ffc0cb;
+}
+
+.card-button {
+    background-color: #3b7ed0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.card-button:hover {
+    background-color: #2c63a9;
+}
+        </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-upper">
+            <img src="pic.jpg" alt="Profile Picture">
+        </div>
+        <div class="card-lower">
+            <h2>Frontend-developer</h2>
+            <p>Tech Job-Seeker</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/anisha-das-909088319/"><i class="fab fa-linkedin" id="linkedin"></i></a>
+                <a href="https://github.com/Anisha3102"><i class="fab fa-github" id="github"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvNLXMCxXSgnfmtsdNKwtkSXljvNqZhfDprnDBKxwQKCRbMKSbNmRDqNJMpbSvsQmVffL"><i class="fas fa-envelope" id="envelope"></i></a>
+            </div>
+        </div>
+        <div class="card-button">
+            Message
+        </div>
+    </div>
+</body>
+
+</html>
+
