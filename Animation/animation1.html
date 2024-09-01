@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: black;
+            height: 100vh;
+        }
+
+        .container{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: white;
+            animation-name: box;
+            animation-duration: 4s;
+            position: relative;
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse; */
+        }
+
+        @keyframes box{
+
+            0%{
+                left: 0px;
+                top: 0px;
+                box-shadow: 0px 0px 100px rgb(214, 214, 216);
+                transform: rotate(0deg);
+                
+
+            }
+
+            25%{
+
+                left: 80%;
+                top: 0px;
+                background-color: rgb(255, 0, 106);
+                box-shadow: 0px 0px 100px rgb(231, 231, 232);
+                border-radius: 50%;
+                transform: rotate(360deg);
+            }
+
+            50%{
+                top: 68%;
+                left: 80%;
+                background-color: orange;
+                box-shadow: 0px 0px 100px rgb(232, 231, 234);
+                border-radius: 50%;
+                transform: rotate(0deg);
+            }
+
+            75%{
+                left: 0px;
+                top: 68%;
+                background-color: pink;
+                box-shadow: 0px 0px 100px rgb(236, 236, 238);
+                border-radius: 50%;
+                transform: rotate(360deg);
+            }
+
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: greenyellow;
+                box-shadow: 0px 0px 100px rgb(214, 213, 214);
+                border-radius: 50%;
+                transform: rotate(0deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container"></div>
+    
+</body>
+</html>

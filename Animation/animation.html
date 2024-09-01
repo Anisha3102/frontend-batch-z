@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 50px;
+            width: 50px;
+            animation-name: box;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: alternate-reverse;
+            
+        }
+
+        .container1{
+            height:50px;
+            width: 50px;
+            animation-name: box1;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes box{
+
+            from{
+                width: 0px;
+                height: 0;
+                background-color:rgb(108, 108, 115);
+                left: 0;
+                top: 0;
+            }
+
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                left: 600px;
+                top: 600px;
+            }
+        }
+  
+
+        @keyframes box1{
+
+from{
+    width: 0;
+    height: 0;
+    background-color:rgb(108, 108, 115);
+    right: 0;
+    top: 0;
+}
+
+to{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    right: 600px;
+    top: 500px;
+}
+}
+
+      
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+        <div class="container1"></div>
+    
+
+</body>
+</html>
